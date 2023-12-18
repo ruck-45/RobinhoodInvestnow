@@ -12,7 +12,7 @@ const ContactInfo = () => {
           <Button isIconOnly variant="flat" radius="full" size="sm">
             <FaPhone />
           </Button>
-          <p>+1 (844) 671-7473</p>
+          <p>+1 (888) 355-9278</p>
         </div>
         <p>Call us today for expert investment guidance and personalized assistance!</p>
       </div>
@@ -22,7 +22,7 @@ const ContactInfo = () => {
           <Button isIconOnly variant="solid" radius="full" size="sm">
             <MdEmail />
           </Button>
-          <p>support@charlsolutions.com</p>
+          <p>support@robinhoodinvestnow.com</p>
         </div>
 
         <p>Drop us an email to explore your investment opportunities with our expert team!</p>

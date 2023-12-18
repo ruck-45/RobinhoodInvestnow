@@ -9,11 +9,12 @@ import Mission from "../../globalSubComponents/Mission";
 import Achievement from "./subComponents/Achievement";
 import Help from "./subComponents/Help";
 import Services from "./subComponents/Services";
+import Popover from "./subComponents/Popover";
 
 const Home = () => {
   const dispatch = useDispatch();
   dispatch(updateTab("Home"));
-
+  
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -21,6 +22,7 @@ const Home = () => {
 
   return (
     <div>
+      <Popover />
       <HeroSection />
       <Benefit />
       <Mission />

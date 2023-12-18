@@ -115,7 +115,7 @@ const UserAuth = () => {
         <Image width={120} src={logo} alt="logo" radius="none" className="mb-[1rem]" />
       </Link>
       <div className="flex gap-2 font-semibold welcomeText">
-        <h1>Welcome to Charl Solutions </h1>
+        <h1>Welcome to RobinHood Solutions </h1>
         <p>👋</p>
       </div>
       <p className="text-xs mb-2">Please {authStatus ? "Login to" : "Create"} your account and start the adventure !</p>

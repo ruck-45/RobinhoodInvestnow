@@ -14,12 +14,12 @@ import logo from "../globalAssets/logo.svg";
 const contactInfo = [
   {
     name: "Phone",
-    value: "+1 (844) 671-7473",
+    value: "+1 (888) 355-9278",
     icon: <FaPhone />,
   },
   {
     name: "Email",
-    value: "support@charlsolutions.com",
+    value: "support@robinhoodinvestnow.com",
     icon: <MdEmail />,
   },
   {
@@ -119,7 +119,7 @@ const Footer = () => {
         <Divider className="dark" />
       </div>
 
-      <p>© 2023 Charl Solutions • All Rights Reserved</p>
+      <p>© 2023 RobinHood Solutions • All Rights Reserved</p>
     </div>
   );
 };

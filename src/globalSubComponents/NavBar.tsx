@@ -49,7 +49,7 @@ const NavBar = () => {
       <NavbarContent>
         <NavbarMenuToggle aria-label={navOpenStatus ? "Close menu" : "Open menu"} className="lg:hidden text-white" />
         <Link to="../Home">
-          <Image width={120} src={logo} alt="logo" radius="none" className="hidden lg:block" />
+          <Image width={150} src={logo} alt="logo" radius="none" className="hidden lg:block" />
         </Link>
       </NavbarContent>
       <NavbarContent className="lg:hidden logo">

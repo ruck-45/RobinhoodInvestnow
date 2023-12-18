@@ -36,7 +36,7 @@ const Mission = () => {
             <div className="flex flex-col col-span-6 lg:col-span-8 p-[1rem] md:p-[2rem] lg:p-[3rem] gap-[2rem]">
               <div className="flex flex-col gap-[1.5rem]">
                 <h1 className="font-['Kalnia'] font-bold text-[2.7rem] lg:text-[3rem] text-[#191f22] leading-[3.7rem] text-center lg:text-left">
-                  Improving The World Through Charl Solutions.
+                  Improving The World Through RobinHood.
                 </h1>
                 <p className="text-justify text-default-500">
                   Empowering communities and protecting our environment to fostering understanding and harnessing
