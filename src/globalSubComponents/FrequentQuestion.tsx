@@ -10,8 +10,8 @@ import QuestionAccordion from "./QuestionAccordion";
 
 const FrequentQuestion = () => {
   return (
-    <div className="flex flex-col md:flex-row fqBg p-[5rem] gap-[2rem] md:gap-[0rem]">
-      <div className="md:w-[50%] flex flex-col gap-[1rem]">
+    <div className="flex flex-col md:flex-row fqBg px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem]">
+      <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem]">
         <h1 className="font-['lilita_one'] text-[2rem]">Frequently Asked Questions</h1>
         <p>
           Explore our FAQ section foar quick answers to common queries about our services. If you have specific

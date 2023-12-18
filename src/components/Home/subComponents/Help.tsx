@@ -5,7 +5,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 const Help = () => {
   return (
     <div className="bg-[white] flex">
-      <div className="flex justify-center items-center grow p-[5rem]">
+      <div className="flex justify-center items-center grow px-[2rem] sm:px-[3rem] md:px-[5rem] py-[5rem]">
         <div className="max-w-[50rem] flex flex-col items-start gap-[3rem]">
           <div>
             <h1 className="font-['Kalnia'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">You deserve more.</h1>

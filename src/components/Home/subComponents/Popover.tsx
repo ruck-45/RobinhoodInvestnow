@@ -19,7 +19,7 @@ const Popover = () => {
       setTimeout(() => {
         PopoverButton.current.click();
         dispatch(updatePopoverStatus(true));
-      }, 2500);
+      }, 2000);
     }
   }, []);
 

@@ -25,7 +25,7 @@ const missionChips = [
 
 const Mission = () => {
   return (
-    <div className="flex justify-center items-center p-[3rem] py-[5rem] bg-[white]">
+    <div className="flex justify-center items-center px-[0rem] sm:px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] bg-[white]">
       <Card isBlurred className="border-none bg-transparent max-w-[80rem]">
         <CardBody>
           <div className="grid grid-cols-6 lg:grid-cols-12 gap-6 lg:gap-4 items-center justify-center">
