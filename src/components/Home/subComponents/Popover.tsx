@@ -1,8 +1,9 @@
 // Dependencies
-import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure } from "@nextui-org/react";
+import { Modal, ModalContent, ModalHeader, ModalBody, Button, useDisclosure } from "@nextui-org/react";
 import { useRef, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { FaPhone } from "react-icons/fa6";
+import { BiSolidPhoneCall } from "react-icons/bi";
 
 // Local Files
 import { updatePopoverStatus } from "../../../store/popoverStatusSlice";
@@ -29,44 +30,21 @@ const Popover = () => {
         Open Modal
       </Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} className="dark text-white sm:hidden">
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex items-center gap-[1rem]">
-                <Button isIconOnly variant="solid" radius="full" className="text-[1rem]">
-                  <FaPhone />
-                </Button>
-                <p>Get Started</p>
-              </ModalHeader>
-              <ModalBody>
-                <p className="italic text-default-500">
-                  " Welcome to Robinhood Solutions, your go-to source for expert support in trading, investment, options
-                  trading, crypto, and more. With a trusted history of success and industry-leading experience, we are
-                  committed to empowering you on your financial journey. "
-                </p>
-                <p>
-                  <span className="text-[#f31260] font-bold">Call us now</span> to connect with our experts and take the
-                  first step toward financial success. Your dedicated support is just a call away – let's achieve
-                  excellence together!
-                </p>
-                <p>
-                  <span className="text-[#f31260] font-bold">Phone</span> : +1 (888) 355-9278
-                </p>
-                <p>
-                  <span className="text-[#f31260] font-bold">Email</span> : support@robinhoodinvestnow.com
-                </p>
-              </ModalBody>
-              <ModalFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  <a href="tel:+1-888-355-9278">Call Us</a>
-                </Button>
-              </ModalFooter>  
-            </>
-          )}
-        </ModalContent>
+        <a href="tel:+1-888-355-9278">
+          <ModalContent className="h-[99%]">
+                <ModalHeader className="flex items-center gap-[1rem]">
+                  <Button isIconOnly variant="solid" radius="full" className="text-[1rem]">
+                    <FaPhone />
+                  </Button>
+                  <p>Contact Us</p>
+                </ModalHeader>
+                <ModalBody className="flex flex-col justify-center items-center">
+                  <BiSolidPhoneCall  className="text-[20rem]"/>
+                  <p className="text-[#f31260] font-bold">Call us now</p>
+                  <p className="text-center">to speak live with a person on our team. we're committed to be there for our customers.</p>
+                </ModalBody>
+          </ModalContent>
+        </a>
       </Modal>
     </>
   );
