@@ -14,9 +14,9 @@ const FrequentQuestion = () => {
       <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem]">
         <h1 className="font-['lilita_one'] text-[2rem]">Frequently Asked Questions</h1>
         <p>
-          Explore our FAQ section foar quick answers to common queries about our services. If you have specific
-          questions or need further assistance, our support team is ready to help. We’re here to ensure you have the
-          information you need for a smooth experience with us.
+          Discover quick answers to common queries about our services in our FAQ section. For specific questions or
+          further assistance, our dedicated support team is ready to help. We're committed to ensuring you have the
+          information you need for a seamless experience with us.
         </p>
 
         <ul className="list-disc list-inside text-justify">

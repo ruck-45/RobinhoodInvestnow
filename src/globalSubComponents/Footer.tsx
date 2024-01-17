@@ -14,7 +14,7 @@ import logo from "../globalAssets/logo.svg";
 const contactInfo = [
   {
     name: "Phone",
-    value: "+1 (888) 355-9278",
+    value: "+1 (888) 8916039",
     icon: <FaPhone />,
   },
   {
@@ -57,10 +57,10 @@ const Footer = () => {
         <div className="max-w-[20rem] flex flex-col gap-[2rem] companySection">
           <Image width={170} src={logo} alt="logo" radius="none" />
           <p className="text-justify">
-            Your destination for versatile investment brokerage and trading services. Our platform offers a range of
-            investment options backed by expert guidance. From novice investors to seasoned traders, we provide tailored
-            solutions to help you navigate financial markets confidently and achieve your investment objectives with
-            ease.
+            Your go-to hub for versatile investment brokerage and trading services. Our platform features a spectrum of
+            investment options complemented by expert guidance. Tailored solutions cater to both novice investors and
+            seasoned traders, enabling confident navigation of financial markets to achieve your investment objectives
+            seamlessly.
           </p>
           <div className="flex text-[1.8rem] gap-[1rem]">
             <SiFacebook className="mt-[0.4rem] cursor-pointer hover:scale-105" />

@@ -1,35 +1,35 @@
 // Local Files
 import "./Services.css";
 import ServicesCard from "./ServicesCard";
+import InvestmentImg from "../../Investment/assets/RHinvestement.jpg"
+import cryptoImg from "../../Crypto/assets/RHcrypto.jpg"
+import optionsImg from "../../Options/assets/RHoption.jpg"
+import RetirementImg from "../../Retirement/assets/RHretirement.jpg"
 
 const services = [
   {
     heading: "Investment",
     caption:
-      "Unlock financial growth with our investment platform. Seamlessly navigate diverse markets, make informed decisions, and watch your wealth flourish. Start your journey toward financial success today.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1613442301239-ea2478101ea7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Unlock the doors to financial growth through our advanced investment platform. Effortlessly navigate diverse markets, make informed decisions, and witness your wealth flourish. Commence your journey toward financial success today.",
+    thumbnail: InvestmentImg,
   },
   {
     heading: "Crypto",
     caption:
-      "Unlock the future of finance with our seamless cryptocurrency purchase service. Buy digital assets securely, navigate the world of blockchain effortlessly, and invest in the decentralized economy with confidence.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1634704784915-aacf363b021f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Unleash the future of finance through our seamless cryptocurrency purchase service. Securely acquire digital assets, effortlessly navigate the world of blockchain, and invest in the decentralized economy with unwavering confidence.",
+    thumbnail: cryptoImg,
   },
   {
     heading: "Options",
     caption:
-      "Options trading allows investors to buy or sell the right to purchase or sell an asset at a predetermined price within a specified timeframe, providing strategic opportunities for risk management and profit.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1651130540796-744c58fb74d1?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Engage in the dynamic world of options trading, where investors can buy or sell the right to purchase or sell an asset at a predetermined price within a specified timeframe. This approach offers strategic opportunities for both risk management and profit, providing a versatile and calculated approach to financial markets.",
+    thumbnail: optionsImg,
   },
   {
     heading: "Retirement",
     caption:
-      "Unlock financial freedom with our Individual Retirement Account (IRA). Securely invest for your future, enjoy tax advantages, and tailor your retirement strategy with our user-friendly platform. Start building wealth today!",
-    thumbnail:
-      "https://images.unsplash.com/photo-1624150402111-9a54e5c2c798?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Attain financial freedom by unlocking the potential of our Individual Retirement Account (IRA). Safely invest for your future, leverage tax advantages, and customize your retirement strategy using our user-friendly platform. Embark on the journey to building wealth today!",
+    thumbnail: RetirementImg,
   },
 ];
 

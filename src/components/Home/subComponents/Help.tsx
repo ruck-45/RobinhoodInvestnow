@@ -12,8 +12,9 @@ const Help = () => {
             <h1 className="font-['Kalnia'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">We can help.</h1>
           </div>
           <p>
-            The product or service that is being offered to help people could be anything that can improve their lives.
-            This could include things like personal development programs, therapy, or financial assistance.
+            The offerings encompass a diverse range of products or services designed to enhance people's lives. From
+            personal development programs and therapeutic solutions to financial assistance, our array of options aims
+            to contribute positively to your well-being.
           </p>
 
           <Button

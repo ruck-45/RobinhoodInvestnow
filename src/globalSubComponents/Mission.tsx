@@ -39,8 +39,9 @@ const Mission = () => {
                   Improving The World Through RobinHood.
                 </h1>
                 <p className="text-justify text-default-500">
-                  Empowering communities and protecting our environment to fostering understanding and harnessing
-                  technology ethically, each action, big or small, contributes to a brighter future.
+                  Empowering communities, safeguarding the environment, fostering understanding, and ethically
+                  harnessing technology — every action, whether significant or subtle, plays a pivotal role in shaping a
+                  brighter future.
                 </p>
               </div>
 
