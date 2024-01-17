@@ -13,17 +13,17 @@ import MissionChip from "./MissionChip";
 const smallCardData = [
   {
     heading: "Fast Process",
-    caption: "Dedicated to providing a fast and efficient service.",
+    caption: "Committed to delivering swift and efficient services.",
     logo: <IoRocketSharp className="text-[2rem]" />,
   },
   {
     heading: "Best Quality",
-    caption: "Elevating Your Financial Experience.",
+    caption: "Enhancing your financial journey with a superior experience.",
     logo: <FaThumbsUp className="text-[2rem]" />,
   },
   {
     heading: "Solution",
-    caption: "Your Pathway to Financial Growth.",
+    caption: "Navigating your journey towards financial growth.",
     logo: <TbBulbFilled className="text-[2rem]" />,
   },
 ];
@@ -34,8 +34,9 @@ const Benefit = () => {
       <Card className="max-w-[400px] p-[2rem] dark bg-[#F31260] shrink-0 benefitCard" isPressable>
         <CardHeader className="font-['Concert_One'] text-[3rem]">Our Benefit</CardHeader>
         <CardBody className="text-justify">
-          Navigate the exciting world of trading and investing with confidence. Whether you’re a seasoned investor or
-          just starting out, we offer the tools, resources, and expertise you need to achieve your financial goals.
+          Explore the dynamic realm of trading and investing with unwavering confidence. Whether you're a seasoned
+          investor or just embarking on your financial journey, we provide the essential tools, resources, and expertise
+          necessary to help you achieve your financial goals.
         </CardBody>
         <CardFooter>
           <Button variant="light" radius="full" endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}>
@@ -57,7 +58,7 @@ const Benefit = () => {
             heading={data.heading}
             caption={data.caption}
             default={true}
-            innerWrapperClassName = "w-[16rem]"
+            innerWrapperClassName="w-[16rem]"
           />
         ))}
       </div>

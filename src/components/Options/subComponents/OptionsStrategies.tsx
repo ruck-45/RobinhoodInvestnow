@@ -13,7 +13,7 @@ const OptionsStrategies = () => {
         />
         <StrategyCard
           heading="Watchlist"
-          caption="Explore options effortlessly with our Watchlist feature. Track and analyze options contracts, uncovering potential returns before you trade. Optimize your strategy with ease and stay informed on market opportunities. Start now!"
+          caption="Effortlessly explore options with our Watchlist feature. Track and analyze options contracts, uncovering potential returns before you trade. Optimize your strategy with ease and stay informed on market opportunities. Start now!"
           isBlack={true}
           thumbnail="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
@@ -30,7 +30,7 @@ const OptionsStrategies = () => {
 
         <StrategyCard
           heading="Cash Accounts"
-          caption="Experience flexibility in trading with our cash accounts. Break free from pattern day trade restrictions and trade stocks, ETFs, and options seamlessly. Elevate your trading game with the power of options and cash accounts combined."
+          caption="Embrace flexibility in trading with our cash accounts. Break free from pattern day trade restrictions and seamlessly trade stocks, ETFs, and options. Elevate your trading game with the combined power of options and cash accounts."
           isBlack={true}
           thumbnail="https://images.unsplash.com/photo-1623118176012-9b0c6fa0712d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />

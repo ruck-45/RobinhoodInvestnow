@@ -8,9 +8,10 @@ const FAQBlog = () => {
       <div className="max-w-[40rem] flex flex-col gap-[1rem]">
         <h1 className="font-['lilita_one'] text-[3rem]">Blogs And Articles</h1>
         <p className="text-default-500 text-justify">
-          Stay ahead in the financial world! Subscribe to our blog for exclusive insights on investments, crypto trends,
-          IRA strategies, trading tips, and more. Join our community to receive expert analysis and updates, ensuring
-          you make informed decisions on your journey to financial success. Subscribe now for a wealth of knowledge!
+          Stay ahead in the financial world! Subscribe to our blog for exclusive insights on investments, cryptocurrency
+          trends, IRA strategies, trading tips, and more. Become a part of our community to access expert analysis and
+          updates, ensuring you make informed decisions on your journey to financial success. Subscribe now for a wealth
+          of knowledge!
         </p>
       </div>
       <Button variant="shadow" color="danger" radius="full" endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}>
