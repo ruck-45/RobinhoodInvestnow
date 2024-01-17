@@ -14,7 +14,7 @@ import logo from "../globalAssets/logo.svg";
 const contactInfo = [
   {
     name: "Phone",
-    value: "+1 (888) 8916039",
+    value: "+1 (888) 8916-039",
     icon: <FaPhone />,
   },
   {
