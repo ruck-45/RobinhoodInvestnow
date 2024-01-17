@@ -14,11 +14,11 @@ const HeroSection = () => {
       <div className="flex flex-col justify-center items-center gap-[3rem] w-[100%] px-[3rem] py-[2rem] bg-[rgba(0,0,0,0.5)]">
         <div className="flex flex-col items-center text-center text-[3rem] lg:text-[3.5rem] font-['Kalnia'] font-bold leading-[3.4rem] lg:leading-[4rem]">
           <span className="text-[white]">
-            Build <span className="text-[#f31260]">your</span> tomorrow
+            Invest with <span className="text-[#F5A524]">Confidence</span>
           </span>
 
-          <span className="text-[#f31260]">
-            on a <span className="text-[white]">strong</span> foundation.
+          <span className="text-[white]">
+            & <span className="text-[#F5A524]">Secure</span> Your Future.
           </span>
         </div>
 
@@ -38,7 +38,7 @@ const HeroSection = () => {
         </div>
 
         <Button
-          color="danger"
+          color="warning"
           variant="ghost"
           radius="full"
           endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}

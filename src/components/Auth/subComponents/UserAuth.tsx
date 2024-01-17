@@ -111,11 +111,11 @@ const UserAuth = () => {
 
   return (
     <form className="flex flex-col justify-center p-12 gap-3 Auth rounded-3xl">
-      <Link to='../Home'>
+      <Link to="../Home">
         <Image width={120} src={logo} alt="logo" radius="none" className="mb-[1rem]" />
       </Link>
       <div className="flex gap-2 font-semibold welcomeText">
-        <h1>Welcome to RobinHood Solutions </h1>
+        <h1>Welcome to InvestNow</h1>
         <p>👋</p>
       </div>
       <p className="text-xs mb-2">Please {authStatus ? "Login to" : "Create"} your account and start the adventure !</p>

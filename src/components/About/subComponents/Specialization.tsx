@@ -2,6 +2,9 @@
 import { Image, Button, Progress } from "@nextui-org/react";
 import { FaArrowCircleRight } from "react-icons/fa";
 
+// Local Files
+import leadership from "../assets/leadership.jpg";
+
 const progressData = [
   {
     label: "Growth",
@@ -47,7 +50,7 @@ const Specialization = () => {
 
           <Button
             variant="shadow"
-            color="danger"
+            color="warning"
             radius="full"
             endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}
           >
@@ -57,11 +60,11 @@ const Specialization = () => {
       </div>
       <Image
         isBlurred
-        src="https://images.unsplash.com/photo-1573167036629-fd1d76448ddf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src={leadership}
         alt="Help"
         width={500}
         radius="none"
-        className="border border-[1rem] hidden lg:block rotate-3 hover:rotate-1"
+        className="border-[1rem] hidden lg:block rotate-3 hover:rotate-1"
       />
     </div>
   );

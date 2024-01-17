@@ -1,4 +1,4 @@
-import faqImg from "../assets/RHfaq.jpg"
+import faqImg from "../assets/RHfaq.jpg";
 
 const FAQIntro = () => {
   return (
@@ -10,10 +10,10 @@ const FAQIntro = () => {
     >
       <div className="flex flex-col justify-center items-center w-[100%] px-[3rem] py-[2rem] bg-[rgba(0,0,0,0.5)] mt-[3rem] text-center text-[3rem] lg:text-[3.5rem]">
         <span className="font-['kalnia'] font-bold leading-[4rem] text-[white]">
-          Your <span className="text-[#f31260]">Questions.</span>
+          Your <span className="text-[#F5A524]">Questions.</span>
         </span>
 
-        <span className="font-['kalnia'] font-bold leading-[4rem] text-[#f31260]">
+        <span className="font-['kalnia'] font-bold leading-[4rem] text-[#F5A524]">
           Our <span className="text-[white]">Answers.</span>
         </span>
       </div>

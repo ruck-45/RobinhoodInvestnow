@@ -70,7 +70,7 @@ const NavBar = () => {
 
         <Dropdown className="dark">
           <NavbarItem
-            className={curTab === "Services" ? "navActiveServices flex flex-col hidden lg:flex" : "hidden lg:flex"}
+            className={curTab === "Services" ? "navActiveServices flex-col hidden lg:flex" : "hidden lg:flex"}
           >
             <DropdownTrigger>
               <Button
@@ -137,14 +137,14 @@ const NavBar = () => {
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <Link to="../Auth">
-            <Button color="danger" variant="bordered" radius="full">
+            <Button color="warning" variant="bordered" radius="full">
               Login
             </Button>
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link to="../Auth">
-            <Button color="danger" variant="solid" radius="full" className="font-semibold">
+            <Button color="warning" variant="solid" radius="full" className="font-semibold">
               Sign Up
             </Button>
           </Link>
@@ -161,7 +161,7 @@ const NavBar = () => {
                     title={item}
                     classNames={{ title: curTab === item ? "active" : "notActive", content: "text-white" }}
                   >
-                    <Listbox aria-label="Services" color="danger">
+                    <Listbox aria-label="Services" color="warning">
                       <ListboxItem key="Investment" className="p-0" textValue="Investment">
                         <Link
                           style={{ display: "block", padding: "6px 8px" }}

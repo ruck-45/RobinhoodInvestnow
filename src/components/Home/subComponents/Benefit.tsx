@@ -6,7 +6,7 @@ import { FaThumbsUp } from "react-icons/fa";
 import { TbBulbFilled } from "react-icons/tb";
 
 // Local Files
-import './Benefit.css'
+import "./Benefit.css";
 import BenefitSmallCard from "./BenefitSmallCard";
 import MissionChip from "./MissionChip";
 
@@ -31,8 +31,8 @@ const smallCardData = [
 const Benefit = () => {
   return (
     <div className="py-[5rem] lg:px-[5rem] flex justify-center items-center benefit gap-[2rem]">
-      <Card className="max-w-[400px] p-[2rem] dark bg-[#F31260] shrink-0 benefitCard" isPressable>
-        <CardHeader className="font-['Concert_One'] text-[3rem]">Our Benefit</CardHeader>
+      <Card className="max-w-[400px] p-[2rem] dark bg-[#F5A524] shrink-0 benefitCard" isPressable>
+        <CardHeader className="font-['Concert_One'] text-[3rem]">Our Strengths</CardHeader>
         <CardBody className="text-justify">
           Explore the dynamic realm of trading and investing with unwavering confidence. Whether you're a seasoned
           investor or just embarking on your financial journey, we provide the essential tools, resources, and expertise

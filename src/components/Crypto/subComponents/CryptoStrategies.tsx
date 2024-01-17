@@ -22,7 +22,7 @@ const CryptoStrategies = () => {
       <div className="flex flex-col md:flex-row">
         <StrategyCard
           heading="Transfers"
-          caption="Effortlessly send and receive crypto with our platform. Whether transferring to Robinhood or other wallets, rest assured it's secure and fee-free. Experience simple, secure crypto transactions for seamless financial management."
+          caption="Effortlessly send and receive crypto with our platform. Whether transferring to InvestNow or other wallets, rest assured it's secure and fee-free. Experience simple, secure crypto transactions for seamless financial management."
           isBlack={false}
           className="md:order-last"
           thumbnail="https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

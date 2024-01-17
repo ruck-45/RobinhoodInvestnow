@@ -19,7 +19,7 @@ const contactInfo = [
   },
   {
     name: "Email",
-    value: "support@robinhoodinvestnow.com",
+    value: "support@investnow.com",
     icon: <MdEmail />,
   },
   {
@@ -77,7 +77,7 @@ const Footer = () => {
                   {data.icon}
                 </Button>
                 <div className="font-['poppins']">
-                  <h1 className="text-[#F31260] font-bold text-[1.2rem]">{data.name}</h1>
+                  <h1 className="text-[#F5A524] font-bold text-[1.2rem]">{data.name}</h1>
                   <p className="text-sm">{data.value}</p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="flex justify-between w-full footerLinks">
             {footerLinks.map((ele, index) => (
               <div className="flex flex-col gap-[1rem]">
-                <p className="font-['poppins'] text-[#F31260] font-bold text-[1.1rem]">{ele.type}</p>
+                <p className="font-['poppins'] text-[#F5A524] font-bold text-[1.1rem]">{ele.type}</p>
                 <Listbox items={ele.data} aria-label="navigation" className="dark" variant="light">
                   {(item) => (
                     <ListboxItem key={item.key}>
@@ -104,7 +104,7 @@ const Footer = () => {
             ))}
 
             <div className="flex flex-col gap-[1rem] max-w-[13rem]">
-              <p className="font-['poppins'] text-[#F31260] font-bold text-[1.1rem]">Work Hours</p>
+              <p className="font-['poppins'] text-[#F5A524] font-bold text-[1.1rem]">Work Hours</p>
               <p className="text-justify">
                 Trade and invest anytime, anywhere. Our platform is available 24/7 for seamless access to opportunities
                 and trading services.
@@ -119,7 +119,7 @@ const Footer = () => {
         <Divider className="dark" />
       </div>
 
-      <p>© 2023 RobinHood Solutions • All Rights Reserved</p>
+      <p>© 2023 InvestNow • All Rights Reserved</p>
     </div>
   );
 };

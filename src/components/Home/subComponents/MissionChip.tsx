@@ -15,7 +15,7 @@ const MissionChip = (props: MissionChipProps) => {
       startContent={
         <Button
           isIconOnly
-          color={props.default ? "primary" : "danger"}
+          color={props.default ? "primary" : "warning"}
           variant="flat"
           radius="full"
           className="w-[4rem] h-[4rem]"
@@ -24,8 +24,8 @@ const MissionChip = (props: MissionChipProps) => {
         </Button>
       }
       variant="flat"
-      color={props.default ? "primary" : "danger"}
-      className= "min-w-[15rem] min-h-[3rem] text-center py-[2rem] px-[0] "
+      color={props.default ? "primary" : "warning"}
+      className="min-w-[15rem] min-h-[3rem] text-center py-[2rem] px-[0] "
     >
       <div className={"ml-[1rem] mr-[1.5rem] " + props.innerWrapperClassName}>
         <h1 className="font-['poppins'] text-left text-[1rem]">{props.heading}</h1>

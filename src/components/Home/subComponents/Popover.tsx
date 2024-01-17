@@ -41,11 +41,11 @@ const Popover = () => {
             </ModalHeader>
             <ModalBody className="flex flex-col justify-center items-center">
               <h1 className="text-[3rem] leading-[2.2rem] font-bold font-['kalina'] text-center mb-[2rem]">
-                Robinhood Investment
+                InvestNow
               </h1>
               <p className="font-bold mb-[2rem] text-[1.5rem]">More Info</p>
               <BiSolidPhoneCall className="text-[5rem] " />
-              <p className="text-[#f31260] font-bold text-[2rem]">Call us now</p>
+              <p className="text-[#F5A524] font-bold text-[2rem]">Call us now</p>
               <p className="text-center">
                 to speak live with a person on our team. we're committed to be there for our customers.
               </p>

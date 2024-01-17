@@ -14,7 +14,12 @@ const FAQBlog = () => {
           of knowledge!
         </p>
       </div>
-      <Button variant="shadow" color="danger" radius="full" endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}>
+      <Button
+        variant="shadow"
+        color="warning"
+        radius="full"
+        endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}
+      >
         Subscribe Now
       </Button>
     </div>

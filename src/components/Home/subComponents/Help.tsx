@@ -2,6 +2,9 @@
 import { Image, Button } from "@nextui-org/react";
 import { FaArrowCircleRight } from "react-icons/fa";
 
+// Local Files
+import supportImg from "../assets/support.jpg";
+
 const Help = () => {
   return (
     <div className="bg-[white] flex">
@@ -19,7 +22,7 @@ const Help = () => {
 
           <Button
             variant="light"
-            color="danger"
+            color="warning"
             radius="full"
             endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}
           >
@@ -29,11 +32,11 @@ const Help = () => {
       </div>
       <Image
         isBlurred
-        src="https://images.unsplash.com/photo-1604881991720-f91add269bed?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src={supportImg}
         alt="Help"
         width={500}
         radius="none"
-        className="border border-[1rem] hidden lg:block"
+        className="border-[1rem] hidden lg:block"
       />
     </div>
   );

@@ -22,7 +22,7 @@ const ContactInfo = () => {
           <Button isIconOnly variant="solid" radius="full" size="sm">
             <MdEmail />
           </Button>
-          <p>support@robinhoodinvestnow.com</p>
+          <p>support@investnow.com</p>
         </div>
 
         <p>Drop us an email to explore your investment opportunities with our expert team!</p>

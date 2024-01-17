@@ -28,7 +28,7 @@ const FrequentQuestion = () => {
         <Link to="../FAQ">
           <Button
             variant="shadow"
-            color="danger"
+            color="warning"
             radius="full"
             endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}
             className="max-w-[8rem] mt-[1rem]"

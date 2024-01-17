@@ -9,6 +9,7 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 // Local Files
 import "./Mission.css";
 import MissionChip from "../components/Home/subComponents/MissionChip";
+import missionImg from "../globalAssets/missionImg.jpg";
 
 const missionChips = [
   {
@@ -30,13 +31,18 @@ const Mission = () => {
         <CardBody>
           <div className="grid grid-cols-6 lg:grid-cols-12 gap-6 lg:gap-4 items-center justify-center">
             <div className="relative col-span-6 lg:col-span-4">
-              <div className="missionImg rounded-xl"></div>
+              <div
+                className="missionImg rounded-xl"
+                style={{
+                  backgroundImage: `url(${missionImg})`,
+                }}
+              ></div>
             </div>
 
             <div className="flex flex-col col-span-6 lg:col-span-8 p-[1rem] md:p-[2rem] lg:p-[3rem] gap-[2rem]">
               <div className="flex flex-col gap-[1.5rem]">
                 <h1 className="font-['Kalnia'] font-bold text-[2.7rem] lg:text-[3rem] text-[#191f22] leading-[3.7rem] text-center lg:text-left">
-                  Improving The World Through RobinHood.
+                  Empower Your Investments With InvestNow.
                 </h1>
                 <p className="text-justify text-default-500">
                   Empowering communities, safeguarding the environment, fostering understanding, and ethically
@@ -56,7 +62,7 @@ const Mission = () => {
               <div className="flex justify-between">
                 <Button
                   variant="ghost"
-                  color="danger"
+                  color="warning"
                   radius="full"
                   endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}
                 >
