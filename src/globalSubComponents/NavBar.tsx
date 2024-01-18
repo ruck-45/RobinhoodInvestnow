@@ -26,6 +26,7 @@ import "./NavBar.css";
 import logo from "../globalAssets/logo.svg";
 import { RootState } from "../store/store";
 import { updateNavStatus } from "../store/navOpenStatusSlice";
+import bg from "../globalAssets/bg.jpg";
 
 const menuItems = ["Home", "Services", "About", "Contact", "FAQ", "Log In"];
 
@@ -42,9 +43,12 @@ const NavBar = () => {
     <Navbar
       isMenuOpen={navOpenStatus}
       onMenuOpenChange={setIsMenuOpen}
-      className="dark bg-[black] h-[5rem] nav"
+      className="dark h-[5rem] nav"
       maxWidth="xl"
       shouldHideOnScroll
+      style={{
+        backgroundImage: `url(${bg})`,
+      }}
     >
       <NavbarContent>
         <NavbarMenuToggle aria-label={navOpenStatus ? "Close menu" : "Open menu"} className="lg:hidden text-white" />

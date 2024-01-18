@@ -8,6 +8,14 @@ import supportImg from "../assets/support.jpg";
 const Help = () => {
   return (
     <div className="bg-[white] flex">
+      <Image
+        isBlurred
+        src={supportImg}
+        alt="Help"
+        width={500}
+        radius="none"
+        className="border-[1rem] hidden lg:block"
+      />
       <div className="flex justify-center items-center grow px-[2rem] sm:px-[3rem] md:px-[5rem] py-[5rem]">
         <div className="max-w-[50rem] flex flex-col items-start gap-[3rem]">
           <div>
@@ -30,14 +38,6 @@ const Help = () => {
           </Button>
         </div>
       </div>
-      <Image
-        isBlurred
-        src={supportImg}
-        alt="Help"
-        width={500}
-        radius="none"
-        className="border-[1rem] hidden lg:block"
-      />
     </div>
   );
 };

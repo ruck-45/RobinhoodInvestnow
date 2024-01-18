@@ -1,5 +1,6 @@
 // Dependencies
 import { useDispatch } from "react-redux";
+import { Divider } from "@nextui-org/react";
 
 // Local Files
 import { updateTab } from "../../store/curTabSlice";
@@ -24,10 +25,10 @@ const Home = () => {
     <div>
       <Popover />
       <HeroSection />
-      <Benefit />
       <Mission />
       <Achievement />
       <Help />
+      <Benefit />
       <Services />
     </div>
   );
