@@ -18,7 +18,7 @@ const smallCardData = [
   },
   {
     heading: "Best Quality",
-    caption: "Enhancing your financial journey with a superior experience.",
+    caption: "Optimizing your financial journey for superiority.",
     logo: <FaThumbsUp className="text-[2rem]" />,
   },
   {
@@ -51,7 +51,7 @@ const Benefit = () => {
         ))}
       </div>
 
-      <div className="flex gap-[2rem] hidden skillsChip">
+      <div className="gap-[2rem] hidden skillsChip">
         {smallCardData.map((data, index) => (
           <MissionChip
             logo={data.logo}
