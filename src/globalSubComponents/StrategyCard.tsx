@@ -5,14 +5,14 @@ type StrategyCardProps = {
   className?: string;
   heading: string;
   caption: string;
-  isBlack: Boolean;
+  isPurple?: Boolean;
   thumbnail: string;
 };
 
 const StrategyCard = (props: StrategyCardProps) => {
-  let className = "flex flex-col items-center gap-[2rem] p-[5rem] md:w-[50%] " + props.className;
-  if (props.isBlack) {
-    className += " bg-black text-white";
+  let className = "flex flex-col items-center text-center gap-[2rem] p-[5rem] md:w-[100%] " + props.className;
+  if (props.isPurple) {
+    className += " text-white";
   } else {
     className += " bg-white";
   }
@@ -20,8 +20,8 @@ const StrategyCard = (props: StrategyCardProps) => {
   return (
     <div className={className}>
       <div>
-        <h1 className="font-['Unna'] text-[2rem]">{props.heading}</h1>
-        <p>{props.caption}</p>
+        <h1 className="font-['Unna'] text-[2rem] md:text-[4rem]">{props.heading}</h1>
+        <p className="md:text-[1.5rem]">{props.caption}</p>
       </div>
       <Image width={600} alt="thumbnail" src={props.thumbnail} isBlurred />
     </div>
