@@ -11,6 +11,8 @@ import Achievement from "./subComponents/Achievement";
 import Help from "./subComponents/Help";
 import Services from "./subComponents/Services";
 import Popover from "./subComponents/Popover";
+import Youtube from "./subComponents/Youtube";
+import Testimonials from "./subComponents/Testimonials";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -26,10 +28,12 @@ const Home = () => {
       <Popover />
       <HeroSection />
       <Mission />
-      <Achievement />
-      <Help />
       <Benefit />
       <Services />
+      <Help />
+      <Achievement />
+      <Testimonials />
+      <Youtube />
     </div>
   );
 };
