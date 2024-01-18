@@ -41,7 +41,7 @@ const Popover = () => {
             </ModalHeader>
             <ModalBody className="flex flex-col justify-center items-center">
               <h1 className="text-[3rem] leading-[2.2rem] font-bold font-['kalina'] text-center mb-[2rem]">
-                InvestNow
+                Robinhood
               </h1>
               <p className="font-bold mb-[2rem] text-[1.5rem]">More Info</p>
               <BiSolidPhoneCall className="text-[5rem] " />
