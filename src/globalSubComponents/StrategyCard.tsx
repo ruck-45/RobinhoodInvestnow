@@ -20,10 +20,10 @@ const StrategyCard = (props: StrategyCardProps) => {
   return (
     <div className={className}>
       <div>
-        <h1 className="font-['lilita_one'] text-[2rem]">{props.heading}</h1>
+        <h1 className="font-['Unna'] text-[2rem]">{props.heading}</h1>
         <p>{props.caption}</p>
       </div>
-      <Image width={600} alt="thumbnail" src={props.thumbnail} isBlurred/>
+      <Image width={600} alt="thumbnail" src={props.thumbnail} isBlurred />
     </div>
   );
 };

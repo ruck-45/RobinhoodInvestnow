@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <div className="HeroSection flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-[3rem] w-[100%] px-[3rem] py-[2rem] bg-[rgba(0,0,0,0.5)]">
-        <div className="flex flex-col items-center text-center text-[3rem] lg:text-[3.5rem] font-['Kalnia'] font-bold leading-[3.4rem] lg:leading-[4rem]">
+        <div className="flex flex-col items-center text-center text-[3rem] lg:text-[3.5rem] font-['Salsa'] font-bold leading-[3.4rem] lg:leading-[4rem]">
           <span className="text-[white]">
             Invest with <span className="text-[#F5A524]">Confidence</span>
           </span>

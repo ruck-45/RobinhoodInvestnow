@@ -26,7 +26,7 @@ const ServicesCard = (props: ServicesCardProps) => {
 
           <div className="flex flex-col col-span-8 md:col-span-5 lg:col-span-6 px-[2rem] lg:px-[3rem] py-[1rem] gap-[2rem]">
             <div className="flex flex-col gap-[1rem] md:gap-0">
-              <h1 className="font-['Kalnia'] font-bold text-[2rem] text-[#191f22] text-left">{props.heading}</h1>
+              <h1 className="font-['Salsa'] font-bold text-[2rem] text-[#191f22] text-left">{props.heading}</h1>
               <p className="text-justify text-default-500 text-sm">{props.caption}</p>
             </div>
 

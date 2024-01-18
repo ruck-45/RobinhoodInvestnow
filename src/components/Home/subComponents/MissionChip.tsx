@@ -28,7 +28,7 @@ const MissionChip = (props: MissionChipProps) => {
       className="min-w-[15rem] min-h-[3rem] text-center py-[2rem] px-[0] "
     >
       <div className={"ml-[1rem] mr-[1.5rem] " + props.innerWrapperClassName}>
-        <h1 className="font-['poppins'] text-left text-[1rem]">{props.heading}</h1>
+        <h1 className="font-['Jost'] text-left text-[1rem]">{props.heading}</h1>
         <p className="text-left text-xs">{props.caption}</p>
       </div>
     </Chip>

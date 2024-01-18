@@ -1,10 +1,10 @@
 // Local Files
 import "./Services.css";
 import ServicesCard from "./ServicesCard";
-import InvestmentImg from "../../Investment/assets/RHinvestement.jpg"
-import cryptoImg from "../../Crypto/assets/RHcrypto.jpg"
-import optionsImg from "../../Options/assets/RHoption.jpg"
-import RetirementImg from "../../Retirement/assets/RHretirement.jpg"
+import InvestmentImg from "../../Investment/assets/RHinvestement.jpg";
+import cryptoImg from "../../Crypto/assets/RHcrypto.jpg";
+import optionsImg from "../../Options/assets/RHoption.jpg";
+import RetirementImg from "../../Retirement/assets/RHretirement.jpg";
 
 const services = [
   {
@@ -36,7 +36,7 @@ const services = [
 const Services = () => {
   return (
     <div className="service flex flex-col justify-center items-center px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem]">
-      <div className="font-['Concert_one'] text-[3rem]">Our Services</div>
+      <div className="font-['Unna'] text-[3rem]">Our Services</div>
       <div className="flex flex-col gap-[2rem]">
         {services.map((data, index) => (
           <ServicesCard

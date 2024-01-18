@@ -14,10 +14,10 @@ const FAQTailCard = () => {
       }}
     >
       <div className="flex flex-col items-center">
-        <p className="text-white font-['lilita_one'] text-[3rem] leading-[3rem] text-center">
+        <p className="text-white font-['Unna'] text-[3rem] leading-[3rem] text-center">
           Growing Your <span className="text-[#F5A524]">Fortune</span>
         </p>
-        <p className="text-white font-['lilita_one'] text-[3rem] leading-[3rem] text-center">
+        <p className="text-white font-['Unna'] text-[3rem] leading-[3rem] text-center">
           While You Grow Your <span className="text-[#F5A524]">Dreams</span>
         </p>
       </div>

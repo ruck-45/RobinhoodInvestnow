@@ -85,7 +85,7 @@ const NavBar = () => {
               </Button>
             </DropdownTrigger>
           </NavbarItem>
-          <DropdownMenu aria-label="Services" className="gap-4 text-white font-['poppins']">
+          <DropdownMenu aria-label="Services" className="gap-4 text-white font-['Jost']">
             <DropdownItem key="Investment" className="p-0" textValue="Investment">
               <Link to="./Investment" style={{ display: "block", padding: "6px 8px" }}>
                 Investment

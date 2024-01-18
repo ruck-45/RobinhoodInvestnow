@@ -26,10 +26,10 @@ const Specialization = () => {
       <div className="flex items-center w-full lg:w-[50%]">
         <div className="w-full flex flex-col items-center lg:items-start gap-[3rem] ms-[3rem] lg:ms-[0]">
           <div>
-            <h1 className="font-['Kalnia'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
+            <h1 className="font-['Salsa'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
               Getting the Best Terms
             </h1>
-            <h1 className="font-['Kalnia'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
+            <h1 className="font-['Salsa'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
               On Your Investment
             </h1>
           </div>

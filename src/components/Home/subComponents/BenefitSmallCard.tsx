@@ -16,7 +16,7 @@ const BenefitSmallCard = (props: BenefitSmallCardProps) => {
         </Button>
       </CardHeader>
       <CardBody className="text-center p-0 gap-[0.5rem]">
-        <h1 className="font-['Concert_One'] text-[1.8rem] text-[#F5A524]">{props.heading}</h1>
+        <h1 className="font-['Unna'] text-[1.8rem] text-[#F5A524]">{props.heading}</h1>
         <p className="text-default-500 text-sm px-[1rem]">{props.caption}</p>
       </CardBody>
       <CardFooter className="justify-center p-0">

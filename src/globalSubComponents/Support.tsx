@@ -46,7 +46,7 @@ const supportInfo = [
 const Support = () => {
   return (
     <div className="p-[5rem] support flex flex-col justify-center items-center gap-[2rem]">
-      <h1 className="font-['concert_one'] text-[2.5rem] font-semibold">Enhance Your Experince</h1>
+      <h1 className="font-['Unna'] text-[2.5rem] font-semibold">Enhance Your Experince</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
         {supportInfo.map((data, index) => (
           <Card isFooterBlurred radius="lg" className="border-none">
@@ -60,7 +60,7 @@ const Support = () => {
               height={400}
               isZoomed
             />
-            <CardFooter className="flex-col font-['poppins'] text-center items-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10 bg-[rgba(0,0,0,0.4)]">
+            <CardFooter className="flex-col font-['Jost'] text-center items-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10 bg-[rgba(0,0,0,0.4)]">
               <h1 className="text-default-200 text-xl font-semibold mt-[0.5rem]">{data.heading}</h1>
               <p className="text-xs text-default-200 p-[0.5rem]">{data.caption}</p>
             </CardFooter>

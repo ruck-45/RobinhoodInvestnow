@@ -11,8 +11,8 @@ const Help = () => {
       <div className="flex justify-center items-center grow px-[2rem] sm:px-[3rem] md:px-[5rem] py-[5rem]">
         <div className="max-w-[50rem] flex flex-col items-start gap-[3rem]">
           <div>
-            <h1 className="font-['Kalnia'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">You deserve more.</h1>
-            <h1 className="font-['Kalnia'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">We can help.</h1>
+            <h1 className="font-['Salsa'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">You deserve more.</h1>
+            <h1 className="font-['Salsa'] font-bold text-[3rem] text-[#191f22] leading-[3.7rem]">We can help.</h1>
           </div>
           <p>
             The offerings encompass a diverse range of products or services designed to enhance people's lives. From
