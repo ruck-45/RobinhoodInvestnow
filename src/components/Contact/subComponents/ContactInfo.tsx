@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const ContactInfo = () => {
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="flex flex-col px-[3rem] md:px-[5rem] py-[5rem] bg-white md:w-[50%]">
+      <div className="flex flex-col px-[3rem] md:px-[5rem] py-[5rem] text-white md:w-[50%]">
         <h1 className="font-['Unna'] text-[2rem]">Call Us</h1>
         <div className="flex gap-[0.5rem] items-center">
           <Button isIconOnly variant="flat" radius="full" size="sm">
@@ -16,7 +16,7 @@ const ContactInfo = () => {
         </div>
         <p>Call us today for expert investment guidance and personalized assistance!</p>
       </div>
-      <div className="flex flex-col px-[3rem] md:px-[5rem] py-[5rem] bg-black text-white md:w-[50%]">
+      <div className="flex flex-col px-[3rem] md:px-[5rem] py-[5rem]  text-white md:w-[50%]">
         <h1 className="font-['Unna'] text-[2rem]">Email Us</h1>
         <div className="flex gap-[0.5rem] items-center">
           <Button isIconOnly variant="solid" radius="full" size="sm">

@@ -1,6 +1,6 @@
 // Dependencies
 import { Image, Divider } from "@nextui-org/react";
-import who from "../assets/q1.jpg";
+import who from "../assets/RHwhoweare.jpg";
 
 const AboutUs = () => {
   return (

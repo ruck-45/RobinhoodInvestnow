@@ -12,29 +12,11 @@ const ContactUs = () => {
         <h1 className="py-[1rem] font-['rubik_doodle_shadow']  text-white font-bold text-5xl md:text-7xl">
           Contact Us
         </h1>
-        <form
-          className="w-full md:w-[30rem] py-[2rem] px-[1rem] flex flex-col gap-[1rem]"
-        >
-          <Input
-            type="email"
-            label="Email"
-            name="user_email"
-          />
-          <Input
-            type="text"
-            label="Full Name"
-            name="user_name"
-          />
-          <Input
-            type="text"
-            label="Company Name"
-            name="user_company_name"
-          />
-          <Input
-            type="tel"
-            label="Phone Number"
-            name="user_number"
-          />
+        <form className="w-full md:w-[30rem] py-[2rem] px-[1rem] flex flex-col gap-[1rem]">
+          <Input type="email" label="Email" name="user_email" />
+          <Input type="text" label="Full Name" name="user_name" />
+          <Input type="text" label="Company Name" name="user_company_name" />
+          <Input type="tel" label="Phone Number" name="user_number" />
           <Input
             type="number"
             label="Monthly Budget ( INR / USD )"
@@ -55,7 +37,7 @@ const ContactUs = () => {
               </div>
             }
           />
-          <Button size="lg" className="" variant="bordered" color="primary" radius="none" >
+          <Button size="lg" className="" variant="bordered" color="warning" radius="none">
             <span>Send Message</span>
           </Button>
         </form>
@@ -63,12 +45,12 @@ const ContactUs = () => {
       <div className="text-white max-w-[30rem] text-center flex-col gap-[2rem] hidden lg:flex">
         <h1 className="font-bold text-[3rem] leading-[3rem]">Invest Now</h1>
         <p>
-          We're eager to hear from you! Whether you have inquiries about our international customer service solutions,
-          are interested in exploring partnership opportunities, or simply want to learn more about how TMIS can elevate
-          your business, fill out the form below. Our team is ready to connect with you and provide tailored solutions
-          to meet your unique needs. Let's start a conversation and embark on a journey towards unparalleled success
-          together. Your satisfaction is our priority, and we look forward to being your trusted partner in
-          international customer service excellence.
+          We're excited to hear from you! Whether you have questions about our investment services, are interested in
+          exploring collaboration opportunities, or simply want to learn more about how InvestNow can elevate your
+          financial journey, fill out the form below. Our dedicated team is prepared to engage with you and provide
+          customized solutions to address your unique needs. Let's initiate a conversation and embark on a journey
+          towards unparalleled success together. Your satisfaction is our priority, and we look forward to being your
+          trusted partner in investment excellence.
         </p>
       </div>
     </div>
